@@ -1016,7 +1016,7 @@ export default function Home() {
 
               {/* Profile Image/Avatar Column */}
               <div className="md:col-span-4 flex justify-center">
-                <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full p-1 bg-gradient-to-tr from-indigo-500 to-emerald-400 shadow-xl shadow-indigo-500/10">
+                <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-full p-1 bg-zinc-700 shadow-xl shadow-zinc-800/10">
                   <div className="w-full h-full rounded-full bg-[#07070a] flex items-center justify-center border border-black overflow-hidden relative">
                     <img
                       src="/IMG_6004.JPG"
@@ -1258,8 +1258,9 @@ export default function Home() {
             <h4 className="text-xs uppercase font-mono tracking-wider font-semibold text-zinc-400">Products</h4>
             <div className="flex flex-col gap-2 text-xs text-zinc-500">
               <a href="#netizn-app" className="hover:text-white transition-colors">Netizn Social App</a>
-              <a href="#netizn-app" className="hover:text-white transition-colors">Multiple Storefronts</a>
-              <a href="#netizn-app" className="hover:text-white transition-colors">AI Health Coach</a>
+              <a href="#netizn-app" className="hover:text-white transition-colors">Netizn Shops/Marketplace</a>
+              <a href="#netizn-app" className="hover:text-white transition-colors">AI Assistance</a>
+              <a href="#netizn-app" className="hover:text-white transition-colors">Netizn Health</a>
             </div>
           </div>
 
